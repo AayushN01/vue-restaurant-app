@@ -1,16 +1,74 @@
 {
   "users": [
     {
-      "id": 1,
-      "name": "Aayush Niraula",
-      "email": "aayush@test.com",
-      "password": "aayush@123"
+      "name": "Gareth Bonner",
+      "email": "hufafyl@mailinator.com",
+      "contact": "+1 (837) 451-8012",
+      "password": "Pa$$w0rd!",
+      "id": 1
     },
     {
-      "id": 2,
-      "name": "Jon Doe",
-      "email": "jon@test.com",
-      "password": "jon@123"
+      "name": "TaShya Miller",
+      "email": "cuzoluda@mailinator.com",
+      "contact": "+1 (576) 174-1846",
+      "password": "Pa$$w0rd!",
+      "id": 2
+    },
+    {
+      "name": "Jordan Wong",
+      "email": "jefisovipu@mailinator.com",
+      "contact": "+1 (714) 988-9053",
+      "password": "Pa$$w0rd!",
+      "id": 3
+    },
+    {
+      "name": "Sandra Phillips",
+      "email": "labap@mailinator.com",
+      "contact": "+1 (429) 215-2949",
+      "password": "Pa$$w0rd!",
+      "id": 4
+    },
+    {
+      "name": "Miriam Velez",
+      "email": "qiconigywe@mailinator.com",
+      "contact": "+1 (106) 582-9187",
+      "password": "Pa$$w0rd!",
+      "id": 5
+    },
+    {
+      "name": "Evan Estrada",
+      "email": "tifun@mailinator.com",
+      "contact": "+1 (529) 508-9006",
+      "password": "Pa$$w0rd!",
+      "id": 6
+    },
+    {
+      "name": "Remedios Zimmerman",
+      "email": "kuzaf@mailinator.com",
+      "contact": "+1 (247) 496-8618",
+      "password": "Pa$$w0rd!",
+      "id": 7
+    },
+    {
+      "name": "Mallory Clarke",
+      "email": "puneqoz@mailinator.com",
+      "contact": "+1 (504) 171-8578",
+      "password": "Pa$$w0rd!",
+      "id": 8
+    },
+    {
+      "name": "Leslie Ayala",
+      "email": "bocawy@mailinator.com",
+      "contact": "+1 (805) 469-2012",
+      "password": "Pa$$w0rd!",
+      "id": 9
+    },
+    {
+      "name": "Benjamin Bennett",
+      "email": "libi@mailinator.com",
+      "contact": "+1 (789) 554-2789",
+      "password": "Pa$$w0rd!",
+      "id": 10
     }
   ]
 }
