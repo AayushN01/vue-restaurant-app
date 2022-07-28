@@ -69,6 +69,13 @@
       "contact": "9876543210",
       "password": "123456",
       "id": 10
+    },
+    {
+      "name": "Orli Terrell",
+      "email": "disurydu@mailinator.com",
+      "contact": "+1 (879) 787-1202",
+      "password": "Pa$$w0rd!",
+      "id": 11
     }
   ]
 }
