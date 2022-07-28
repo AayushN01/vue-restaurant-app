@@ -12,6 +12,7 @@
         <input type="tel" placeholder="Enter Contact Number" name="contact" v-model="contact">
         <input type="password" placeholder="Enter Password" name="password" v-model="password">
         <button>Sign Up</button>
+        <p>Already have an account? <router-link to="/sign-in">Sign In</router-link></p>
     </form>
 </template>
 
