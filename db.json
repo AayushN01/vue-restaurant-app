@@ -78,18 +78,24 @@
       "id": 11
     }
   ],
-  "restaurants":[
+  "restaurants": [
     {
-      "id": 1,
-      "name":"KFC",
-      "address":"DurbarMarg, Kathmandu",
-      "contact": "4720000"
+      "name": "Benjamin Mcneil",
+      "address": "Eveniet animi aliq",
+      "contact": "+1 (182) 198-4119",
+      "id": 1
     },
     {
-      "id": 2,
-      "name":"Pizza Hut",
-      "address":"DurbarMarg, Kathmandu",
-      "contact": "4720001"
+      "name": "Jason Serrano",
+      "address": "A odio et explicabo",
+      "contact": "+1 (726) 798-2165",
+      "id": 2
+    },
+    {
+      "name": "Gary Davidson",
+      "address": "Sed veniam nobis cu",
+      "contact": "+1 (471) 921-3227",
+      "id": 3
     }
   ]
 }
