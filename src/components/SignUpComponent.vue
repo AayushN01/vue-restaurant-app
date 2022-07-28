@@ -92,6 +92,7 @@ export default {
         background-color: #fff;
         border: 1px solid #8b0304;
         color: #8b0304;
+        transform: scale(1.02);
     }
     div.error{
         display: flex;
