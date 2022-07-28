@@ -38,9 +38,13 @@ export default {
                 let result = await axios.post('http://localhost:3000/users',{
                     name:this.name,email:this.email,contact:this.contact,password:this.password
                 }); 
-                // console.log(result.data);      
-                // store result in local storage
-                localStorage.setItem("user-info",JSON.stringify(result.data));  
+                // console.log(result.data);
+                if(result.status == 201){
+                    // store result in local storage
+                    localStorage.setItem("user-info",JSON.stringify(result.data));
+                    // Redirect to homepage
+                    this.$router.push({name:'Home'});  
+                }      
             }
             if(!this.name){
                 this.error.push('Name is required *')
@@ -54,6 +58,14 @@ export default {
             if(!this.password){
                 this.error.push('Password is required *');
             }
+        }
+    },mounted(){
+        // console.log('mounted');
+        // if logged in do not show redirect to sign-up page
+        // Get user from local storage
+        let user = localStorage.getItem('user-info');
+        if(user){
+            this.$router.push({name:'Home'});
         }
     }
 }
