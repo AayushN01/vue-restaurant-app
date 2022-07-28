@@ -77,5 +77,19 @@
       "password": "Pa$$w0rd!",
       "id": 11
     }
+  ],
+  "restaurants":[
+    {
+      "id": 1,
+      "name":"KFC",
+      "address":"DurbarMarg, Kathmandu",
+      "contact": "4720000"
+    },
+    {
+      "id": 2,
+      "name":"Pizza Hut",
+      "address":"DurbarMarg, Kathmandu",
+      "contact": "4720001"
+    }
   ]
 }

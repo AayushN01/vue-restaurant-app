@@ -6,6 +6,14 @@
 import HeaderComponent from './HeaderComponent.vue';
 export default {
     name: "UpdateComponent",
-    components: { HeaderComponent }
+    components: { HeaderComponent },
+    mounted() {
+        // if not logged in do not show redirect to homepage
+        // Get user from local storage
+        let user = localStorage.getItem("user-info");
+        if (!user) {
+            this.$router.push({ name: "SignIn" });
+        }
+    }
 }
 </script>

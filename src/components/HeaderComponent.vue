@@ -31,9 +31,10 @@ export default {
     nav ul{
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content: flex-end;
         align-items: center;
         list-style-type: none;
+        padding-right: 30px;
     }
     nav ul li, nav ul li a{
         font-size: 20px;
