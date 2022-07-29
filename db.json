@@ -131,7 +131,7 @@
     },
     {
       "name": "Design Landing Page",
-      "status": "Pending",
+      "status": "Completed",
       "id": 2
     },
     {
@@ -143,6 +143,11 @@
       "name": "Meeting with client",
       "status": "Pending",
       "id": 4
+    },
+    {
+      "name": "Write Report",
+      "status": "Pending",
+      "id": 5
     }
   ]
 }

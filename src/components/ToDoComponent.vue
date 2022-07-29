@@ -75,7 +75,7 @@ export default {
             // console.log(name,id);
             let result = await axios.put('http://localhost:3000/todos/'+id,{"name":name,"status":"Completed"});
             if(result.status == 200)
-            {
+            {   
                 this.getTask();
             }
         }
@@ -126,5 +126,19 @@ export default {
     }
     table tr th.task-name-cell{
         text-align: start;
+    }
+    .removeTask{
+        background: none;
+        border: none;
+        color: #8b0304;
+        font-weight: 900;
+        font-size: 20px;
+    }
+    .completeTask{
+        background: none;
+        border: none;
+        color: #038b45;
+        font-weight: 900;
+        font-size: 20px;
     }
 </style>
