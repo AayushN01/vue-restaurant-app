@@ -45,9 +45,7 @@ export default {
             }
         },
         async loadRestaurants()
-        {
-            let result = await axios.get('http://localhost:3000/restaurants');
-            this.restaurants = result.data;
+        {   
             // if not logged in do not show redirect to homepage
             // Get user from local storage
             let user = localStorage.getItem("user-info");
@@ -55,6 +53,9 @@ export default {
             if (!user) {
                 this.$router.push({ name: "SignIn" });
             }
+            let result = await axios.get('http://localhost:3000/restaurants');
+            this.restaurants = result.data;
+
         }
     },
     async mounted() {

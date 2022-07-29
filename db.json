@@ -76,6 +76,13 @@
       "contact": "+1 (879) 787-1202",
       "password": "Pa$$w0rd!",
       "id": 11
+    },
+    {
+      "name": "Dolan Fitzpatrick",
+      "email": "myxy@mailinator.com",
+      "contact": "+1 (151) 113-5286",
+      "password": "Pa$$w0rd!",
+      "id": 12
     }
   ],
   "restaurants": [
@@ -104,10 +111,38 @@
       "id": 4
     },
     {
+      "name": "Bota",
+      "address": "Kumaripati, Lalitpur",
+      "contact": "4460004",
+      "id": 5
+    },
+    {
       "name": "Zimbu Thakali",
       "address": "Gahanapokhari, Naxal",
       "contact": "4460005",
       "id": 6
+    }
+  ],
+  "todos": [
+    {
+      "name": "Write Email",
+      "status": "Completed",
+      "id": 1
+    },
+    {
+      "name": "Design Landing Page",
+      "status": "Pending",
+      "id": 2
+    },
+    {
+      "name": "Write Blog Posts",
+      "status": "Completed",
+      "id": 3
+    },
+    {
+      "name": "Meeting with client",
+      "status": "Pending",
+      "id": 4
     }
   ]
 }
