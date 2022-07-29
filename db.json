@@ -78,5 +78,36 @@
       "id": 11
     }
   ],
-  "restaurants": []
+  "restaurants": [
+    {
+      "name": "KFC",
+      "address": "Durbarmarg,Kathmandu",
+      "contact": "4460000",
+      "id": 1
+    },
+    {
+      "name": "Pepe Pizza",
+      "address": "Maharajgung, Kathmandu",
+      "contact": "4460001",
+      "id": 2
+    },
+    {
+      "name": "Burger House & crunchy Fried Chicken",
+      "address": "Jhamsikhel, Lalitpur",
+      "contact": "4460002",
+      "id": 3
+    },
+    {
+      "name": "Chicken Station",
+      "address": "Kumaripati, Lalitpur",
+      "contact": "4460003",
+      "id": 4
+    },
+    {
+      "name": "Zimbu Thakali",
+      "address": "Gahanapokhari, Naxal",
+      "contact": "4460005",
+      "id": 6
+    }
+  ]
 }
