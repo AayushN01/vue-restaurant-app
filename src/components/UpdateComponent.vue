@@ -1,6 +1,6 @@
 <template>
     <HeaderComponent/>
-    <h1>Update</h1>
+    <h1>Update Restaurant</h1>
 </template>
 <script>
 import HeaderComponent from './HeaderComponent.vue';

@@ -3,7 +3,6 @@
         <ul>
             <li><router-link to="/">Home</router-link></li>
             <li><router-link to="/add-restaurant">Add restaurant</router-link></li>
-            <li><router-link to="/update-restaurant">Update restaurant</router-link></li>
             <li><a v-on:click="logout"> Logout</a></li>
         </ul>
     </nav>

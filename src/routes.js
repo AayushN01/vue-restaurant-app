@@ -3,6 +3,7 @@ import SignUpComponent from './components/SignUpComponent.vue'
 import SignInComponent from './components/SignInComponent.vue'
 import AddComponent from './components/AddComponent.vue'
 import UpdateComponent from './components/UpdateComponent.vue'
+import PageNotFoundComponent from './components/PageNotFoundComponent.vue'
 import {createRouter,createWebHistory} from 'vue-router'
 
 const routes = [
@@ -10,7 +11,9 @@ const routes = [
     {name:'SignUp',component:SignUpComponent,path:'/sign-up'},
     {name:'SignIn',component:SignInComponent,path:'/sign-in'},
     {name:'Add',component:AddComponent,path:'/add-restaurant'},
-    {name:'Update',component:UpdateComponent,path:'/update-restaurant'},
+    {name:'Update',component:UpdateComponent,path:'/update-restaurant/:id'},
+    {name:'404',component:PageNotFoundComponent,path:'/:pathMatch(.*)*'},
+
 ];
 
 const router = createRouter({

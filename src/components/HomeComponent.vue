@@ -17,7 +17,7 @@
             <td>{{item.address}}</td>
             <td>{{item.contact}}</td>
             <td>
-                <button type="button" class="updateBtn">Update</button>
+                <router-link :to="'/update-restaurant/'+item.id" class="updateBtn">Update</router-link>
                 <button type="button" class="deleteBtn">Delete</button>
             </td>
         </tr>
@@ -75,9 +75,12 @@ export default {
     .updateBtn{
         background-color: #026cff;
         color: #fff;
-        font-weight: 700;
+        /* font-weight: 700; */
         border: 2px solid #026cff;
         border-radius: 10px;
+        text-decoration: none;
+        font-size: 13px;
+        padding: 5px;
     }
     .deleteBtn{
         background-color: #eb1219;
