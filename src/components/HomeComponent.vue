@@ -18,7 +18,7 @@
             <td>{{item.contact}}</td>
             <td>
                 <router-link :to="'/update-restaurant/'+item.id" class="updateBtn">Update</router-link>
-                <button type="button" class="deleteBtn">Delete</button>
+                <button type="button" class="deleteBtn" v-on:click="deleteRestaurant(item.id)">Delete</button>
             </td>
         </tr>
     </table>
@@ -35,16 +35,30 @@ export default {
             restaurants:[],
         }
     },
-    async mounted() {
-        let result = await axios.get('http://localhost:3000/restaurants');
-        this.restaurants = result.data;
-        // if not logged in do not show redirect to homepage
-        // Get user from local storage
-        let user = localStorage.getItem("user-info");
-        this.name = JSON.parse(user).name;  //Get logged in user's name
-        if (!user) {
-            this.$router.push({ name: "SignIn" });
+    methods:{
+        async deleteRestaurant(id){
+            // console.log(id);
+            let result = await axios.delete('http://localhost:3000/restaurants/'+id);    
+            if(result.status == 200)
+            {
+                this.loadRestaurants();
+            }
+        },
+        async loadRestaurants()
+        {
+            let result = await axios.get('http://localhost:3000/restaurants');
+            this.restaurants = result.data;
+            // if not logged in do not show redirect to homepage
+            // Get user from local storage
+            let user = localStorage.getItem("user-info");
+            this.name = JSON.parse(user).name;  //Get logged in user's name
+            if (!user) {
+                this.$router.push({ name: "SignIn" });
+            }
         }
+    },
+    async mounted() {
+        this.loadRestaurants();
     }
     
 }
