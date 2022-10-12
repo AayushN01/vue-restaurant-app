@@ -83,6 +83,13 @@
       "contact": "+1 (151) 113-5286",
       "password": "Pa$$w0rd!",
       "id": 12
+    },
+    {
+      "name": "aayush",
+      "email": "aayush@accessworld.net",
+      "contact": "9841228968",
+      "password": "123456",
+      "id": 13
     }
   ],
   "restaurants": [
@@ -121,14 +128,15 @@
       "address": "Gahanapokhari, Naxal",
       "contact": "4460005",
       "id": 6
+    },
+    {
+      "name": "Chicken Station",
+      "address": "Maharajgung, Kathmandu",
+      "contact": "4485000",
+      "id": 7
     }
   ],
   "todos": [
-    {
-      "name": "Write Email",
-      "status": "Completed",
-      "id": 1
-    },
     {
       "name": "Design Landing Page",
       "status": "Completed",
@@ -141,13 +149,23 @@
     },
     {
       "name": "Meeting with client",
-      "status": "Pending",
+      "status": "Completed",
       "id": 4
     },
     {
       "name": "Write Report",
-      "status": "Pending",
+      "status": "Completed",
       "id": 5
+    },
+    {
+      "name": "Change Passwod",
+      "status": "Completed",
+      "id": 6
+    },
+    {
+      "name": "Clean trash",
+      "status": "Pending",
+      "id": 7
     }
   ]
 }
